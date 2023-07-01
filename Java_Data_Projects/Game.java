@@ -59,7 +59,7 @@ public class Game implements Comparable<Game>{
 
     @Override
     public int compareTo(Game game) {
-        return -Double.compare(this.score, game.getScore());
+        return -Double.compare(this.score, game.getScore());  //remove the - to change the order and see the worst games
     }
     
 
