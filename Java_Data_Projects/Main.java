@@ -58,7 +58,7 @@ public class Main{
 
             File bestGamesFile = new File("C:\\Users\\guybo\\Java_Data_Projects\\Main.java\\bestGames.txt");
             FileWriter myWriter = new FileWriter("bestGames.txt");
-            int numberOfBestGames = 50;
+            int numberOfBestGames = 50; //number of games you want to see
             for(int i = 0; i < numberOfBestGames; i++){
                 String name = bestGames.get(i).getName();
                 String price = bestGames.get(i).getPrice();
